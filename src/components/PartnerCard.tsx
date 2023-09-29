@@ -1,7 +1,7 @@
 
 import styled from "styled-components"
 import { Link } from 'react-router-dom'
-import partner from '../assets/partner.png'
+import partner from '../assets/partner.svg'
 import { AiFillLinkedin } from 'react-icons/ai'
 export default function PartnerCard() {
     return (
@@ -26,8 +26,7 @@ const Wrapper = styled.div`
             .img {
                 img {
                     width: 100%;
-                    max-height: 250px;
-                    object-fit: cover;
+                    height: 180px;
                 }
             }
             .info {
