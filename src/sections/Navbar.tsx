@@ -10,7 +10,9 @@ export default function Navbar() {
 
     const handleMenu = () => {
         if (height === 0) {
-            setHeight(ref?.current?.scrollHeight + 10)
+            if (ref.current) {
+                setHeight(ref.current[`scrollHeight`] + 10)
+            }
         } else {
             setHeight(0)
         }
