@@ -26,7 +26,7 @@ export default function Activites() {
 
 
 const Wrapper = styled.section`
-    background-color: var(--white);
+    /* background-color: var(--white); */
     margin: 30px 0;
     padding: 50px 0;
     .container {

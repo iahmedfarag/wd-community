@@ -21,7 +21,7 @@ export default function Hero() {
 const Wrapper = styled.section`
     margin: 30px 0;
     padding: 50px 0;
-    background-color: var(--white);
+    /* background-color: var(--white); */
     .container {
         display: flex;
         flex-direction: column;
